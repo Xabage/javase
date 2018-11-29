@@ -1,34 +1,34 @@
 package com.ipartek.formacion.ejercicos.iniciales;
 
-public class Básicos {
+public class Basicos {
 
 	public static void main(String[] args) {
 		
-		//Ejercicio básico inicial 1:
+		//Ejercicio bï¿½sico inicial 1:
 		//
-		//Escribe un programa Java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor. A continuación muestra por pantalla:
+		//Escribe un programa Java que realice lo siguiente: declarar una variable N de tipo int, una variable A de tipo double y una variable C de tipo char y asigna a cada una un valor. A continuaciï¿½n muestra por pantalla:
 		//El valor de cada variable.
 		//La suma de N + A
 		//La diferencia de A - N
-		//El valor numérico correspondiente al carácter que contiene la variable C.
-		//Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor ‘a’, se debe mostrar por pantalla:
+		//El valor numï¿½rico correspondiente al carï¿½cter que contiene la variable C.
+		//Si por ejemplo le hemos dado a N el valor 5, a A el valor 4.56 y a C el valor ï¿½aï¿½, se debe mostrar por pantalla:
 		int N = 5;
 		double A = 4.56;
 		char C = 'a';
 		
 		System.out.println(N + A);
 		System.out.println(A - N);
-		System.out.println("Valor numérico del carácter C " + C + " = " + (int)C);
+		System.out.println("Valor numï¿½rico del carï¿½cter C " + C + " = " + (int)C);
 		
-//		Escribe un programa Java que realice lo siguiente: declarar dos variables X e Y de tipo int, dos variables N y M de tipo double y asigna a cada una un valor. A continuación muestra por pantalla:
+//		Escribe un programa Java que realice lo siguiente: declarar dos variables X e Y de tipo int, dos variables N y M de tipo double y asigna a cada una un valor. A continuaciï¿½n muestra por pantalla:
 //			El valor de cada variable.
 //			La suma  X + Y
-//			La diferencia  X – Y
+//			La diferencia  X ï¿½ Y
 //			El producto  X * Y
 //			El cociente  X / Y
 //			El resto  X % Y
 //			La suma  N + M
-//			La diferencia  N – M
+//			La diferencia  N ï¿½ M
 //			El producto  N * M
 //			El cociente  N / M
 //			El resto  N % M
@@ -77,12 +77,12 @@ public class Básicos {
 		System.out.println(X + Y + M + NN);
 		System.out.println(X * Y * M * NN);
 		
-//		Ejercicio básico inicial 3
-//		Escribe un programa Java que declare una variable entera Z y asígnale un valor. A continuación escribe las instrucciones que realicen los siguientes:
+//		Ejercicio bï¿½sico inicial 3
+//		Escribe un programa Java que declare una variable entera Z y asï¿½gnale un valor. A continuaciï¿½n escribe las instrucciones que realicen los siguientes:
 //		Incrementar Z en 77.
 //		Decrementarla en 3.
 //		Duplicar su valor.
-//		Si por ejemplo N = 1 la salida del programa será:
+//		Si por ejemplo N = 1 la salida del programa serï¿½:
 
 		int Z = 1;
 		Z+=77;
