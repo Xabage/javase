@@ -65,7 +65,7 @@ public class Menu {
 		buscarisbn = sc.nextLong();
 		for (i = 0; i < libros.size(); i++) {
 			if (buscarisbn == libros.get(i).getIsbn()) {
-				System.out.println(libros);
+				System.out.println();
 			} else {
 				System.out.println("El ISBN no existe.");
 			}
