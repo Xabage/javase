@@ -57,6 +57,7 @@ public class Menu {
 
 	}
 
+	
 	private static void burcarIsbn() {
 		long buscarisbn;
 		int i;
@@ -65,13 +66,11 @@ public class Menu {
 		buscarisbn = sc.nextLong();
 		for (i = 0; i < libros.size(); i++) {
 			if (buscarisbn == libros.get(i).getIsbn()) {
-				System.out.println();
-			} else {
-				System.out.println("El ISBN no existe.");
-			}
-
+				System.out.println(libros.get(i).getId() + ", " + libros.get(i).getTitulo() + ", " + libros.get(i).getEditorial() + ", " + libros.get(i).getIsbn() + ", " + libros.get(i).getPrecio());
+				return;
+			} 
 		}
-
+		System.out.println("El ISBN no existe.");
 	}
 
 	private static void buscarId() {
@@ -82,29 +81,27 @@ public class Menu {
 		buscarid = sc.nextLong();
 		for (i = 0; i < libros.size(); i++) {
 			if (buscarid == libros.get(i).getId()) {
-				System.out.println(libros);
+				System.out.println(libros.get(i).getId() + ", " + libros.get(i).getTitulo() + ", " + libros.get(i).getEditorial() + ", " + libros.get(i).getIsbn() + ", " + libros.get(i).getPrecio());
+				return;
+			} 
+		}
+		System.out.println("El ID no existe.");
+	}
+
+	private static void baja() {
+		long buscarIdBaja;
+		int i;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introducir ID libro a eliminar");
+		buscarIdBaja = sc.nextLong();
+		for (i = 0; i < libros.size(); i++) {
+			if (buscarIdBaja == libros.get(i).getId()) {
+				libros.remove(libros.get(i));
 			} else {
 				System.out.println("El ID no existe.");
 			}
 
 		}
-
-	}
-
-	private static void baja() {
-//		long buscarIdBaja;
-//		int i;
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Introducir ID libro a eliminar");
-//		buscarIdBaja = sc.nextLong();
-//		for (i = 0; i < libros.size(); i++) {
-//			if (buscarIdBaja == libros.get(i).getId()) {
-//				libros.remove(libros);
-//			} else {
-//				System.out.println("El ID no existe.");
-//			}
-//
-//		}
 
 
 	}
