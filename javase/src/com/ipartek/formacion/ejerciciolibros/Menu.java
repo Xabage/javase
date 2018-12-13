@@ -15,7 +15,6 @@ public class Menu {
 
 	public static void main(String[] args) {
 
-		// CrudAble<Libro> libros = new LibroDaoArrayList();
 
 		String opcion;
 		do {
@@ -97,17 +96,27 @@ public class Menu {
 		for (i = 0; i < libros.size(); i++) {
 			if (buscarIdBaja == libros.get(i).getId()) {
 				libros.remove(libros.get(i));
-			} else {
-				System.out.println("El ID no existe.");
+				return;
 			}
-
 		}
-
+System.out.println("El ID no existe.");
 
 	}
 
 	private static void modificacion() {
-		// TODO Auto-generated method stub
+		long buscarMod;
+		int i;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Introducir ID libro a modificar");
+		buscarMod = sc.nextLong();
+		for (i = 0; i < libros.size(); i++) {
+			if (buscarMod == libros.get(i).getId()) {
+				libros.set(i, pedirDatos());
+				System.out.println("Libro modificado.");
+				return;
+			}
+		}
+		System.out.println("El ID no existe.");
 
 	}
 
@@ -131,54 +140,7 @@ public class Menu {
 
 	}
 
-//		Scanner sn = new Scanner(System.in);
-//	       boolean salir = false;
-//	       String opcion;
-//	        
-//	       while(!salir){
-//	    	   mostrarMenu();
-//	            
-//	           try {
-//	        	   
-//	        	   opcion = Consola.leerLinea("Escribe una de las opciones");
-//	        	   
-//	        	   
-////				System.out.println("Escribe una de las opciones");
-////				   opcion = sn.nextInt();
-//				   
-//				   switch(opcion){
-//				   case "1":
-//				       System.out.println("Has seleccionado la opci�n 1");
-//				       break;
-//				   case "2":
-//				       System.out.println("Has seleccionado la opci�n 2");
-//				       break;
-//				    case "3":
-//				       System.out.println("Has seleccionado la opci�n 3");
-//				       break;
-//				    case "4":
-//				        System.out.println("Has seleccionado la opci�n 4");
-//				        break;
-//				    case "5":
-//				        System.out.println("Has seleccionado la opci�n 5");
-//				        break;
-//				    case "6":
-//				        System.out.println("Has seleccionado la opci�n 6");
-//				        break;
-//				    case "0":
-//				       salir=true;
-//				       break;
-//				    default:
-//				       System.out.println("Solo n�meros entre 0 y 6");
-//         }
-//			} catch (java.util.InputMismatchException e) {
-//				System.out.println("Debes insertar un n�mero");
-//                sn.next();
-//			}
-//	       }
-//		
-//
-//	}
+
 
 	private static void mostrarMenu() {
 		System.out.println("--- LIBROS ---");

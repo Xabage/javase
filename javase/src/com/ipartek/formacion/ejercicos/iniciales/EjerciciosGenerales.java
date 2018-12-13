@@ -13,9 +13,9 @@ public class EjerciciosGenerales {
 //
 //		Programa para intercambiar el valor de dos variables. Los valores iniciales se leen por teclado.
 //
-//		Por ejemplo, suponiendo que las variables se llaman A y B, si A contiene 3 y B contiene 5, después del intercambio A contendrá 5 y B 3. 
+//		Por ejemplo, suponiendo que las variables se llaman A y B, si A contiene 3 y B contiene 5, despuï¿½s del intercambio A contendrï¿½ 5 y B 3. 
 //
-//		En este ejemplo, para intercambiar el valor entre dos variables utilizaremos una variable auxiliar donde guardar el valor de una de ellas. Después veremos la forma de hacerlo sin usar una variable auxiliar para el intercambio. 
+//		En este ejemplo, para intercambiar el valor entre dos variables utilizaremos una variable auxiliar donde guardar el valor de una de ellas. Despuï¿½s veremos la forma de hacerlo sin usar una variable auxiliar para el intercambio. 
 //
 //		Las instrucciones a realizar son:
 //
@@ -41,8 +41,8 @@ public class EjerciciosGenerales {
 		
 		
 //		Intercambio de valores entre dos variables sin utilizar variable auxiliar. 
-//		También se puede intercambiar el valor de dos variables sin utilizar una variable auxiliar.
-//		En ese caso se resuelve utilizando aritmética básica: 
+//		Tambiï¿½n se puede intercambiar el valor de dos variables sin utilizar una variable auxiliar.
+//		En ese caso se resuelve utilizando aritmï¿½tica bï¿½sica: 
 //		A = A + B;
 //		B = A - B;
 //		A = A - B;
@@ -64,20 +64,20 @@ public class EjerciciosGenerales {
 		
 		//Ejercico 2
 		
-//		Programa Java que pide un número entero por teclado y calcula y muestra el número de cifras que tiene.
+//		Programa Java que pide un nï¿½mero entero por teclado y calcula y muestra el nï¿½mero de cifras que tiene.
 		
 //		Scanner sc = new Scanner(System.in);
 //        int n, cifras;
 //        char car;
 //        do {
-//        	System.out.print("Introduce un número entero: ");
+//        	System.out.print("Introduce un nï¿½mero entero: ");
 //        	n = sc.nextInt();
 //        	cifras = 0;
 //        	while(n!=0){
 //        		n = n/10;
 //        		cifras++;
 //        	}
-//        	System.out.println("El número tiene " + cifras+ " cifras");
+//        	System.out.println("El nï¿½mero tiene " + cifras+ " cifras");
 //            System.out.print("Continuar? ");
 //            car = (char)System.in.read();	
 //        }while(car!='n' && car != 'N');
@@ -86,19 +86,19 @@ public class EjerciciosGenerales {
 		
 		//Ejercicio 3
 		
-//		Programa Java que lee una temperatura expresada en grados centígrados y la convierte a grados kelvin. 
+//		Programa Java que lee una temperatura expresada en grados centï¿½grados y la convierte a grados kelvin. 
 //
-//		El proceso de leer grados centígrados se debe repetir mientras que se responda ‘S’ a la pregunta: Repetir proceso? (S/N)
+//		El proceso de leer grados centï¿½grados se debe repetir mientras que se responda ï¿½Sï¿½ a la pregunta: Repetir proceso? (S/N)
 //
-//		Para hacer la conversión de grados Centígrados a grados Kelvin hay que utilizar la fórmula:
+//		Para hacer la conversiï¿½n de grados Centï¿½grados a grados Kelvin hay que utilizar la fï¿½rmula:
 //
-//		ºK = ºC + 273
+//		ï¿½K = ï¿½C + 273
 		
 //		Scanner sc = new Scanner(System.in);
 //		double temperatura;
 //		char car;
 //        do{
-//            System.out.print("Introduce temperatura en ºC: ");
+//            System.out.print("Introduce temperatura en ï¿½C: ");
 //            temperatura = sc.nextDouble();
 //            System.out.println("Grados Kelvin ..: " + (temperatura+273));
 //            System.out.print("Repetir proceso? (S/N): " );
@@ -109,11 +109,11 @@ public class EjerciciosGenerales {
 		
 		//Ejercico 4
 		
-//		Programa Java que lea un número entero N y muestre la tabla de multiplicar de ese número. Por ejemplo, si se lee el valor 7 se mostrará por pantalla:
+//		Programa Java que lea un nï¿½mero entero N y muestre la tabla de multiplicar de ese nï¿½mero. Por ejemplo, si se lee el valor 7 se mostrarï¿½ por pantalla:
 		
 //		Scanner sc = new Scanner(System.in);
 //        int n;
-//        System.out.print("Introduce un número entero: ");
+//        System.out.print("Introduce un nï¿½mero entero: ");
 //        n = sc.nextInt();
 //        System.out.println("Tabla del " + n);
 //        for(int i = 1; i<=10; i++){
@@ -125,21 +125,21 @@ public class EjerciciosGenerales {
 
 		//Ejercico 6
 		
-//		Número perfecto en java
+//		Nï¿½mero perfecto en java
 		
-//		Un número es perfecto si es igual a la suma de todos sus divisores positivos sin incluir el propio número.
+//		Un nï¿½mero es perfecto si es igual a la suma de todos sus divisores positivos sin incluir el propio nï¿½mero.
 //
-//		Por ejemplo, el número 6 es perfecto. 
+//		Por ejemplo, el nï¿½mero 6 es perfecto. 
 //
 //		El 6 tiene como divisores: 1, 2, 3 y 6 pero el 6 no se cuenta como divisor para comprobar si es perfecto.
 //
 //		Si sumamos 1 + 2 + 3 = 6 
 //
-//		Los siguientes números perfectos después del 6 son 28, 496, 8128, 33550336, 8589869056.
+//		Los siguientes nï¿½meros perfectos despuï¿½s del 6 son 28, 496, 8128, 33550336, 8589869056.
 		
 //		 int i, suma = 0, n;
 //	        Scanner sc = new Scanner(System.in);
-//	        System.out.println("Introduce un número: ");
+//	        System.out.println("Introduce un nï¿½mero: ");
 //	        n = sc.nextInt();
 //	        for(i=1; i<n; i++) {
 //	        	if(n % i == 0) {
@@ -147,16 +147,16 @@ public class EjerciciosGenerales {
 //	        	}	        	
 //	        }
 //		if(suma == n) {
-//			System.out.println(n + " es un número perfecto.");
+//			System.out.println(n + " es un nï¿½mero perfecto.");
 //		}else
-//			System.out.println(n + " NO es un número perfecto.");
+//			System.out.println(n + " NO es un nï¿½mero perfecto.");
 //		
 //		sc.close();
 		
-//		Utilizando el algoritmo anterior vamos a escribir ahora el programa Java que muestre los números perfectos entre 1 y 1000
+//		Utilizando el algoritmo anterior vamos a escribir ahora el programa Java que muestre los nï¿½meros perfectos entre 1 y 1000
 //		int i, suma = 0, j;
-//		System.out.println("Números perfectos entre 1 y 1000: ");
-//        for(i=1;i<=1000;i++){    // i es el número que vamos a comprobar
+//		System.out.println("Nï¿½meros perfectos entre 1 y 1000: ");
+//        for(i=1;i<=1000;i++){    // i es el nï¿½mero que vamos a comprobar
 //            suma=0;
 //            for(j=1;j<i;j++){  // j son los divisores. Se divide desde 1 hasta i-1 
 //                 if(i%j==0){
@@ -168,10 +168,10 @@ public class EjerciciosGenerales {
 //              }
 //        }
 		
-//		Números pares del 1 al 100
+//		Nï¿½meros pares del 1 al 100
 		
 //		int i;
-//		System.out.println("Número pares del 1 al 100");
+//		System.out.println("Nï¿½mero pares del 1 al 100");
 //		for(i=1; i<100; i++) {
 //			if(i%2==0) {
 //				System.out.println(i);
@@ -180,17 +180,17 @@ public class EjerciciosGenerales {
 		
 		//Ejercico 7
 		
-//		Números amigos en Java
+//		Nï¿½meros amigos en Java
 		
-//		Dos números enteros positivos A y B son números amigos si la suma de los divisores propios de A es igual a B y la suma de los divisores propios de B es igual a A.
+//		Dos nï¿½meros enteros positivos A y B son nï¿½meros amigos si la suma de los divisores propios de A es igual a B y la suma de los divisores propios de B es igual a A.
 //
-//		Los divisores propios de un número incluyen la unidad pero no el propio número.
+//		Los divisores propios de un nï¿½mero incluyen la unidad pero no el propio nï¿½mero.
 		
 //		int i,suma=0, n1, n2;
 //        Scanner sc = new Scanner(System.in);
-//        System.out.print("Introduce primer número: ");
+//        System.out.print("Introduce primer nï¿½mero: ");
 //        n1 = sc.nextInt();
-//        System.out.print("Introduce segundo número: ");
+//        System.out.print("Introduce segundo nï¿½mero: ");
 //        n2 = sc.nextInt();
 //        for(i=1; i<n1; i++) { // for para sumar todos los divisores propios de n1
 //        	if(n1%i==0) {
@@ -224,32 +224,247 @@ public class EjerciciosGenerales {
         
 //		Fibonacci en java
 		
-//		La serie de fibonacci la forman una serie de números tales que:
+//		La serie de fibonacci la forman una serie de nï¿½meros tales que:
 //
-//			El primer término de la serie es el número 1
-//			El segundo término de la serie es el número 1
-//			Los siguientes términos de la serie de fibonacci se obtienen de la suma de los dos anteriores:
+//			El primer tï¿½rmino de la serie es el nï¿½mero 1
+//			El segundo tï¿½rmino de la serie es el nï¿½mero 1
+//			Los siguientes tï¿½rminos de la serie de fibonacci se obtienen de la suma de los dos anteriores:
 //
 //			1, 1, 2, 3, 5, 8, 13, .....  
 
+//		Scanner sc = new Scanner(System.in);
+//        int numero,fibo1,fibo2,i;
+//        do{
+//            System.out.print("Introduce numero mayor que 1: ");
+//            numero = sc.nextInt();
+//        }while(numero<=1);
+//        System.out.println("Los " + numero + " primeros tï¿½rminos de la serie de Fibonacci son:"); 
+//
+//        fibo1=1;
+//        fibo2=1; 
+//
+//        System.out.print(fibo1 + " ");
+//        for(i=2;i<=numero;i++){
+//             System.out.print(fibo2 + " ");
+//             fibo2 = fibo1 + fibo2;
+//             fibo1 = fibo2 - fibo1;
+//        }
+//        System.out.println();
+//        sc.close();
+		
+		//Ejercicio 9
+//		Decimal a binario en java
+		
+//		En esta entrada vamos a escribir el programa java para convertir un nï¿½mero de decimal a binario.
+//
+//		Para escribir el programa nos vamos a basar en la forma clï¿½sica de pasar de decimal a binario, o sea, dividir el nï¿½mero entre 2 y quedarnos con el resto de la divisiï¿½n. Esta cifra, que serï¿½ un cero o un uno, es el dï¿½gito de menos peso (mï¿½s a la derecha) del nï¿½mero binario. A continuaciï¿½n volvemos a dividir el cociente que hemos obtenido entre 2 y nos quedamos con el resto de la divisiï¿½n. Esta cifra serï¿½ la segunda por la derecha del nï¿½mero binario. Esta operaciï¿½n se repite hasta que obtengamos un cero como cociente.
+
+		//Ejercicio 11
+		
+//		COMPROBAR SI UN NÃšMERO ES CAPICÃšA EN JAVA
+//		Un nÃºmero es capicÃºa si se puede leer igual de derecha a izquierda que de izquierda a derecha. Ejemplos de nÃºmeros capicÃºas: 121, 3003, 1234321, 33, 445544, etc.
+//		Vamos a escribir un programa Java que pida por teclado un nÃºmero entero N de mÃ¡s de una cifra y verifique si es capicÃºa.
+		
+//		Scanner sc = new Scanner (System.in);
+//		int numero, aux, cifra, inverso=0;
+//		
+//		do {
+//		System.out.println("Introduce un nÃºmero de mÃ¡s de una cifra: ");
+//		numero = sc.nextInt();
+//		}while(numero<10);
+		//le damos la vuelta al nÃºmero
+//		aux = numero;
+//		while(aux!=0) {
+//			cifra = aux %10;
+//			inverso = inverso*10 + cifra;
+//			aux = aux/10;
+//		}
+//		if(numero == inverso) {
+//			System.out.println("Es CapicÃºa");
+//		}else {
+//			System.out.println("No es CapicÃºa");
+//		}
+//			
+//		sc.close();
+	
+//		Ejercicios de Bucles Anidados
+		
+		//Ejercicio 4 PirÃ¡mide inversa abecedÃ¡rio
+		
+//		for(char x='Z'; x >= 'A';x--) {
+//			for(char y = x; y >='A';y--) {
+//				System.out.print(y);
+//			}
+//			System.out.println();
+//		}
+		
+		//Java Ejercicios BÃ¡sicos de Arrays 1
+		
+//		Scanner sc = new Scanner(System.in);
+//        int i;
+//        int[] numeros = new int[10];
+//        double media = 0;
+
+        //lectura de datos y llenar el array
+//        System.out.println("Lectura de los elementos del array: ");
+//        for (i = 0; i < 10; i++) {
+//            System.out.print("numeros[" + i + "]= ");
+//            numeros[i] = sc.nextInt();
+//        }
+        
+        //Recorrer el array y calcular la media
+//        for (i = 0; i < 10; i++) {
+//            if (i % 2 == 0){ //si la posiciÃ³n actual es par
+//                media = media + numeros[i]; //se suma el valor de esa posiciÃ³n 
+//            }
+//        }
+        //Calcular y mostrar la media
+//        System.out.println("Media de los valores que se encuentran en posiciones pares: "+ media/5);
+//        sc.close();
+//		Scanner sc = new Scanner (System.in);
+//		int numAlum, i;
+//		double suma = 0, media;
+//		
+//		do {
+//			System.out.println("NÃºmero de alumnos de clase: ");
+//			numAlum = sc.nextInt();
+//		}while(numAlum <=0);
+		
+		//se crea un array llamado notas de numAlumn elementos de tipo double
+//        double[] notas = new double[numAlum]; 
+        
+     // Entrada de datos. Se lee la nota de cada alummo y se guarda
+        // en cada elemento del array
+        
+//       for(i=0; i < notas.length; i++) {
+//    	   System.out.print("Alumno " + (i+1) + " Nota final: ");
+//    	   notas[i] = sc.nextDouble();
+//       } 
+       
+    // Sumar todas las notas
+//       for(i=0; i < notas.length; i++) {
+//    	   suma = suma + notas[i];
+//       }
+       
+       // Calcular la media
+//       media = suma/notas.length;
+       
+       // Mostrar la media
+//       System.out.printf("Nota media del curso: %.2f %n", media);
+       
+       // Mostrar los valores superiores a la media
+//       System.out.println("Listado de notas superior  a la media: ");
+//       for(i=0; i<notas.length; i++) {
+//    	   if(notas[i]>media) {
+//    		   System.out.println("Alumno numero " + (i + 1)+ " Nota final: " + notas[i]);
+//    	   }
+//    		   
+//       }
+       
+       //5. Programa Java que guarda en un array 10 nÃºmeros enteros que se leen por teclado. A continuaciÃ³n se recorre el array y calcula cuÃ¡ntos nÃºmeros son positivos, cuÃ¡ntos negativos y cuÃ¡ntos ceros.
+       
+		
+//		Scanner sc = new Scanner(System.in);
+//		int[] numeros = new int[10];
+//		int i;
+//		int pos=0, neg=0, cero=0;
+		
+		//Leemos los valores por teclado y los guardamos en el array
+//		System.out.println("Introducir 10 nÃºmeros: ");
+//		for(i=0;i<numeros.length;i++) {
+//			System.out.print("numeros[" +  i  + "] = ");
+//			numeros[i] = sc.nextInt();
+//		}
+		 //se recorre el array para contar positivos, negativos y ceros
+//		for(i=0;i<numeros.length;i++) {
+//			if(numeros[i] >0) {
+//				pos++;
+//			}else if(numeros[i] ==0) {
+//				cero++;
+//			}else {
+//				neg++;
+//			}
+//		}
+		
+		//mostrar resultados
+//		System.out.println("Hay " + pos + " nÃºmeros positivos.");
+//		System.out.println("Hay " + neg + " nÃºmeros negativos.");
+//		System.out.println("Hay " + cero + " ceros.");
+		
+//		6. Programa Java que llene un array con 10 nÃºmeros enteros que se leen por teclado. A continuaciÃ³n calcula y muestra la media de los valores positivos y la de los valores negativos del array.
+		
+//		 Scanner sc = new Scanner(System.in);
+//	        int[] numeros = new int[10];
+//	        int pos = 0, neg = 0;  //contadores para positivos y negativos
+//	        int i;
+//	        double sumaPos = 0, sumaNeg = 0;  //suma de positivos y negativos
+	        //Leemos los valores por teclado y los guardamos en el array
+//	        System.out.println("Lectura de los elementos del array: ");
+//	        for (i = 0; i < numeros.length; i++) {
+//	            System.out.print("numeros[" + i + "]= ");
+//	            numeros[i]=sc.nextInt();
+//	        }
+	      //se recorre el array para sumar positivos y negativos
+//	        for (i = 0; i < numeros.length; i++) {
+//	            if (numeros[i] > 0){ //sumar positivos
+//	                sumaPos += numeros[i];
+//	                pos++;
+//	            } else if (numeros[i] < 0){ //sumar negativos
+//	                sumaNeg += numeros[i];
+//	                neg++;
+//	            }
+//	        }
+//		
+//		if (pos != 0) {
+//            System.out.println("Media de los valores positivos: " + sumaPos / pos);
+//        } else {
+//            System.out.println("No ha introducido nÃºmeros positivos");
+//        }
+//        if (neg != 0) {
+//            System.out.println("Media de los valores negativos: " + sumaNeg / neg);
+//        } else {
+//            System.out.println("No ha introducido nÃºmeros negativos");
+//        }
+		
+//		7. Programa Java para leer la altura de N personas y calcular la altura media. Calcular cuÃ¡ntas personas tienen una altura superior a la media y cuÃ¡ntas tienen una altura inferior a la media. El valor de N se pide por teclado y debe ser entero positivo.
+        
 		Scanner sc = new Scanner(System.in);
-        int numero,fibo1,fibo2,i;
-        do{
-            System.out.print("Introduce numero mayor que 1: ");
-            numero = sc.nextInt();
-        }while(numero<=1);
-        System.out.println("Los " + numero + " primeros términos de la serie de Fibonacci son:"); 
-
-        fibo1=1;
-        fibo2=1; 
-
-        System.out.print(fibo1 + " ");
-        for(i=2;i<=numero;i++){
-             System.out.print(fibo2 + " ");
-             fibo2 = fibo1 + fibo2;
-             fibo1 = fibo2 - fibo1;
+		int i, N;
+		int contMas=0, contMenos=0;
+		double media = 0;
+		
+		do {
+			System.out.println("NÃºmero de personas: ");
+			N= sc.nextInt();
+		}while(N<=0);
+		
+		//Se crea el array de tamaÃ±o N
+		double[]alto = new double[N];
+		//Leer alturas
+		for(i=0; i<N;i++) {
+			 System.out.print("persona " + (i+1) + " = ");
+			 alto[i] = sc.nextDouble();
+			 media = media + alto[i];
+		}
+		
+		//Calcular la media
+        media = media / N;
+        //recorremos el array para ver cuantos hay mÃ¡s altos
+        //que la media y cuantos mÃ¡s bajos
+        
+        for(i=0; i<alto.length; i++) {
+        	if(alto[i]>media) {
+        		contMas++;
+        	}else if(alto[i]<media) {
+        		contMenos++;
+        	}
         }
-        System.out.println();
-        sc.close();
+        //Mostrar resultados
+        System.out.println("Estatura media: " + media);
+        System.out.println("Personas con estatura superior a la media: " + contMas);
+        System.out.println("Personas con estatura inferior a la media: " + contMenos);
+		
+		}
+				
 	}
-}
+
